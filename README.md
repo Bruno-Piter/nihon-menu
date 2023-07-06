@@ -1,13 +1,15 @@
 # app-cardapio-japones
 
 Objetivo
+
 A proposta desse projeto é criar um App de cardápio para restaurante japonês em React Native. 
+
 E colocar em prática os seguintes conceitos:
 
-Array.map;
-Array.filter;
-Navegação em abas;
-Códigos e Funções JavaScript.
+Array.map,
+Array.filter, 
+Navegação em abas, 
+Códigos e Funções JavaScript. 
 
 O projeto que será criado tem como diferencial:
 

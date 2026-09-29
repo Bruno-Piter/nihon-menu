@@ -1,0 +1,15 @@
+name: Expo CI
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: CardapioJapones
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: CardapioJapones/package-lock.json }
+      - run: npm ci
+      - run: npx expo-doctor
+      - run: npx expo export --platform web

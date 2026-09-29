@@ -1,31 +1,23 @@
-# App-Cardapio-Japones
+# Nihon Menu
 
-Objetivo
+Uma nova leitura do meu projeto de cardápio japonês criado em 2023. A versão original usava dez abas e uma lista de pratos; a atual prioriza descoberta: busca global, categorias em chips, seleção do chef e uma visão de detalhes para cada item.
 
-A proposta desse projeto é criar um App de cardápio para restaurante japonês em React Native. 
+## Antes e depois
 
-E colocar em prática os seguintes conceitos:
+- A versão original está preservada na tag `v1.0.0-original`.
+- O catálogo, o logo e as imagens continuam no projeto como registro do primeiro app.
+- A experiência foi redesenhada como uma vitrine japonesa minimalista, com fundo washi, contraste em vermelho lacquer e navegação mais direta.
 
-Array.map,
-Array.filter, 
-Navegação em abas, 
-Códigos e Funções JavaScript. 
+## Executar
 
-O projeto que será criado tem como diferencial:
+```bash
+cd CardapioJapones
+npm install
+npm start
+```
 
-Uso de uma coleção de dados para armazenar informações;
-Uso da coleção de dados para exibir os componentes de forma dinâmica na tela;
-Uso de JavaScript para construir buscas e filtros na coleção de dados;
-Uso de props e variáveis de estado
-Ser um app capaz de processar e reagir a interações do usuário.
+Use `npm run android`, `npm run ios` ou `npm run web` para abrir a plataforma desejada.
 
+## Stack
 
-
-![Captura de Tela (40)](https://github.com/Bruno-Piter/app-cardapio-japones/assets/133192036/6d15af2e-8538-43ab-b0ed-da9475635d28)
-
-![anime1](https://github.com/Bruno-Piter/app-cardapio-japones/assets/133192036/dc58d2ea-6ada-484e-9306-e6bec3009c43)
-
-![Captura de Tela (42)](https://github.com/Bruno-Piter/app-cardapio-japones/assets/133192036/7688c4d5-f906-4e71-8f38-8cb0f1952b4f)
-
-![Captura de Tela (41)](https://github.com/Bruno-Piter/app-cardapio-japones/assets/133192036/3278d2de-c747-4e79-8bc2-191d485e2de4)
-
+Expo, React Native e componentes nativos. Não há backend, checkout ou autenticação: o foco é UX de descoberta do cardápio.
